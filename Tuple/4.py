@@ -1,0 +1,5 @@
+mytuple=("apple","banana","cherry","mango")
+print(mytuple[1])
+print(mytuple[2])
+print(mytuple[3])
+print(mytuple[0])
