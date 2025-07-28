@@ -1,0 +1,7 @@
+f1=open("write.txt","w+")
+print(f1.tell())
+f1.write("Hii, good morning")
+print(f1.tell())
+f1.seek(0)
+print(f1.tell())
+print(f1.read())

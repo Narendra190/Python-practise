@@ -1,0 +1,5 @@
+f1=open("write.txt","a+")
+f1.write("welcome")
+f1.seek(0)
+print(f1.read())
+f1.close()
